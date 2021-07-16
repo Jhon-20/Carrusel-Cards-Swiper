@@ -1,0 +1,63 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  min-height: 100vh;
+}
+.container{
+  width: 90%;
+
+  padding: 10px 40px;
+}
+.container .swiper-container{
+  width: 100%;
+  height: 100%;
+}
+.container .swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 15px;
+  text-align: start;
+  box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+ 
+}
+.container .swiper-slide img{
+   display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.container .swiper-slide .card-description{
+    padding:1rem 1rem;
+}
+.container .swiper-slide .card-title,.container .swiper-slide .card-text{
+   margin-bottom: .5rem;
+}
+.container .swiper-slide .card-link{
+   text-align: center;
+  
+}
+.container .swiper-slide .card-link a{
+    text-decoration: none;
+    color: #1d6ce2;
+}
+.swiper-button-next{
+    right: 26px !important;
+}
+.swiper-button-prev{
+    left: 26px !important;
+}
